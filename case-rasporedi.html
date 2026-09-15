@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rasporedi case study — K12Solutions</title>
+<meta name="description" content="Shift scheduling for restaurant groups - the one project here that is not a website, and the reason we do not promise a week for everything.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-wrap">
+<header class="site-header">
+<div class="header-inner">
+<a href="index.html" class="logo">
+<img src="assets/k12-mark.png" alt="K12Solutions" class="logo-mark">
+<span class="logo-text">K12SOLUTIONS</span>
+</a>
+<nav class="nav-desktop">
+<a href="index.html" class="nav-link">Home</a>
+<a href="work.html" class="nav-link is-active">Work</a>
+<a href="about.html" class="nav-link">Studio</a>
+<a href="contact.html" class="nav-cta">Get a quote</a>
+</nav>
+<button class="nav-toggle" aria-label="Toggle menu">
+<span class="nav-toggle-bars"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></span>
+</button>
+</div>
+<nav class="nav-mobile">
+<a href="index.html" class="nav-mobile-link">Home</a>
+<a href="work.html" class="nav-mobile-link">Work</a>
+<a href="about.html" class="nav-mobile-link">Studio</a>
+<a href="contact.html" class="nav-mobile-cta">Get a quote</a>
+</nav>
+</header><main>
+<section class="container case-hero">
+<a href="work.html" class="case-back">&larr; All work</a>
+<h1 class="case-title">Rasporedi</h1>
+<p class="case-lede">Shift scheduling for restaurant groups &mdash; the one project here that is not a website, and the reason we do not promise a week for everything.</p>
+</section>
+<section class="container"><div class="case-meta-grid">
+<div class="case-meta-item"><div class="case-meta-label">Sector</div><div class="case-meta-value">SaaS</div></div>
+<div class="case-meta-item"><div class="case-meta-label">Delivered</div><div class="case-meta-value">Multi-tenant web app</div></div>
+<div class="case-meta-item"><div class="case-meta-label">Timeline</div><div class="case-meta-value">7 weeks</div></div>
+<div class="case-meta-item"><div class="case-meta-label">Built with</div><div class="case-meta-value">Laravel &middot; Vue &middot; Postgres &middot; Stripe</div></div>
+<div class="case-meta-item"><div class="case-meta-label">Plan</div><div class="case-meta-value">Custom build</div></div>
+</div></section>
+<section class="container case-media-wrap"><div class="case-media"><span class="case-media-label">[ rasporedi &mdash; hero, 2400&times;1400 ]</span></div></section>
+
+<section class="container case-section">
+<div class="problem-grid">
+<div><div class="case-section-tag">01 &mdash; The problem</div><h2 class="problem-title">Fourteen venues, fourteen spreadsheets</h2></div>
+<p class="problem-text">A hospitality group ran staffing across fourteen venues in a shared spreadsheet that nobody trusted. Managers built rotas on Sunday nights, staff found out by WhatsApp screenshot, and swaps happened verbally and then vanished. Payroll spent three days a month reconstructing what had actually been worked. Off-the-shelf tools existed, but all of them priced per employee across 400 seasonal staff &mdash; the maths never worked.</p>
+</div>
+</section>
+
+<section class="case-section on-white">
+<div class="container">
+<div class="case-section-tag">02 &mdash; The approach</div>
+<h2 class="approach-title">What we decided to do about it.</h2>
+<div class="approach-grid">
+<div class="approach-item"><div class="approach-label">Scope</div><h3 class="approach-heading">Sprints, not a deadline</h3><p class="approach-text">Seven weeks in four sprints, each ending with something usable in one real venue. No big-bang launch, no eight-week silence.</p></div>
+<div class="approach-item"><div class="approach-label">Interface</div><h3 class="approach-heading">Learnable between services</h3><p class="approach-text">The manager view is one screen. Drag a person onto a shift. Everything else &mdash; costs, overtime warnings, coverage gaps &mdash; is feedback on that one action.</p></div>
+<div class="approach-item"><div class="approach-label">Billing</div><h3 class="approach-heading">Per venue, not per head</h3><p class="approach-text">Priced against the way hospitality actually staffs. This was a commercial decision that came out of the build, not the brief.</p></div>
+</div>
+</div>
+</section>
+
+<section class="container case-section">
+<div class="case-section-tag">03 &mdash; Zero to live</div>
+<h2 class="days-title">The whole build, in order.</h2>
+<div class="days-list">
+<div class="day-row"><div class="day-range">Week 1</div><div><h3 class="day-heading">Discovery in the venues</h3><p class="day-text">Two shifts observed, four managers interviewed. The rota is built around the till's busy hours, not around people &mdash; that reframed the whole interface.</p></div></div>
+<div class="day-row"><div class="day-range">Weeks 2&ndash;3</div><div><h3 class="day-heading">Core scheduling</h3><p class="day-text">Multi-tenant accounts, roles and permissions, the drag-to-assign week view, and live labour-cost totals as you build the rota.</p></div></div>
+<div class="day-row"><div class="day-range">Week 4</div><div><h3 class="day-heading">Staff side</h3><p class="day-text">Mobile view, availability, shift swaps with manager approval, push notifications. Piloted in one venue for a full week.</p></div></div>
+<div class="day-row"><div class="day-range">Weeks 5&ndash;6</div><div><h3 class="day-heading">Billing and reporting</h3><p class="day-text">Stripe subscriptions per venue, payroll export, and the reports the finance team asked for after seeing the pilot.</p></div></div>
+<div class="day-row"><div class="day-range">Week 7</div><div><h3 class="day-heading">Rollout</h3><p class="day-text">Migrated all fourteen venues, trained managers in two group sessions, and ran the old spreadsheet in parallel for a fortnight.</p></div></div>
+</div>
+</section>
+
+<section class="case-section on-white">
+<div class="container">
+<div class="case-section-tag">04 &mdash; Two calls worth explaining</div>
+<h2 class="decisions-title">Where we pushed back.</h2>
+<div class="decisions-list">
+<div class="decision-row"><div><h3 class="decision-heading">We built the cost line early</h3><p class="decision-text">Showing live labour cost while a manager drags shifts was scheduled for sprint four. We moved it to sprint two after watching a manager finish a rota, export it, open Excel, and discover she was 900&euro; over. Feedback belongs at the moment of the decision.</p></div><div class="decision-media"><span class="decision-media-label">[ rota builder with cost line &mdash; 1600&times;900 ]</span></div></div>
+<div class="decision-row"><div><h3 class="decision-heading">Swaps need a human in the loop</h3><p class="decision-text">Fully automatic shift swaps were in the brief. The pilot week showed why they are a bad idea in a kitchen: two juniors swapped onto the same Saturday and nobody senior was on. Manager approval was added, and it is a one-tap action.</p></div><div class="decision-media"><span class="decision-media-label">[ swap approval flow &mdash; 1600&times;900 ]</span></div></div>
+</div>
+</div>
+</section>
+
+<section class="case-section on-navy">
+<div class="container results-inner">
+<div class="case-section-tag">05 &mdash; What happened next</div>
+<div class="results-grid">
+<div class="result-item"><div class="result-num">18</div><div class="result-label">paying venues</div></div>
+<div class="result-item"><div class="result-num">3 days</div><div class="result-label">of payroll admin removed monthly</div></div>
+<div class="result-item"><div class="result-num">7 wks</div><div class="result-label">discovery to rollout</div></div>
+</div>
+<blockquote class="quote-block">
+<p class="quote-text">&ldquo;They spent the first week in our kitchens instead of in a document. That is why the thing they built actually gets used.&rdquo;</p>
+<footer class="quote-footer">Operations director &middot; Rasporedi</footer>
+</blockquote>
+
+</div>
+</section>
+
+<section class="container case-section">
+<div class="next-case-tag">Next case study</div>
+<a href="case-artint.html" class="next-case-link">
+<span><span class="next-case-name">ARTINT</span><span class="next-case-meta">AI startup &middot; marketing + product</span></span>
+<span class="next-case-arrow">Read &rarr;</span>
+</a>
+</section>
+</main><section class="cta-section">
+<div class="cta-inner">
+<h2 class="cta-title">Got a week? So do we.</h2>
+<div class="cta-actions">
+<a href="contact.html" class="btn btn-light">Get a quote</a>
+<a href="mailto:hello@k12solut.com" class="btn btn-outline-light">Email us</a>
+</div>
+</div>
+</section>
+<footer class="site-footer">
+<div class="container footer-inner">
+<div class="footer-grid">
+<div><img src="assets/k12-wordmark-white.png" alt="K12Solutions" class="footer-logo"><p class="footer-tagline">Websites, shops and web apps for small businesses. Fixed price, one week, Belgrade.</p></div>
+<div><div class="footer-col-title">Pages</div><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="work.html">Work</a></li><li><a href="about.html">Studio</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+<div><div class="footer-col-title">Services</div><ul class="footer-links"><li>One-page sites</li><li>Multi-page &amp; CMS</li><li>E-commerce</li><li>Custom web apps</li><li>Care &amp; hosting</li></ul></div>
+<div><div class="footer-col-title">Contact</div><ul class="footer-links"><li><a href="mailto:hello@k12solut.com">hello@k12solut.com</a></li><li>Belgrade, Serbia</li><li>Mon&ndash;Fri, 9&ndash;18 CET</li></ul></div>
+</div>
+<div class="footer-bottom"><span>&copy; 2026 K12Solutions. All rights reserved.</span><span class="footer-legal"><a href="#">Privacy policy</a><a href="#">Terms of service</a></span></div>
+</div>
+</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
