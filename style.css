@@ -283,4 +283,3 @@ body.menu-open .nav-mobile{display:flex}
 .next-case-name{display:block;font-family:var(--font-display);font-weight:800;font-size:clamp(26px,4vw,48px);letter-spacing:-.03em}
 .next-case-meta{display:block;margin-top:8px;font-size:14px;color:var(--muted)}
 .next-case-arrow{font-family:var(--font-mono);font-size:13px;color:var(--blue)}
-
