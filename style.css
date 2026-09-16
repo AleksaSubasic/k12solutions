@@ -152,6 +152,7 @@ body.menu-open .nav-mobile{display:flex}
 .cta-section{
   display:flex;
   justify-content:center;  
+  max-width: 1240px;
   background:var(--blue);
   color:#fff
 }
