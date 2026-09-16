@@ -150,10 +150,20 @@ body.menu-open .nav-mobile{display:flex}
 .faq-item.is-open .faq-answer{display:block}
 
 /* CTA band */
-.cta-section{background:var(--blue);color:#fff}
+.cta-section{
+  display:flex;
+  justify-content:center;  
+  background:var(--blue);
+  color:#fff
+}
 .cta-inner{padding:clamp(48px,7vw,90px) 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px;align-items:center}
 .cta-title{font-size:clamp(30px,4.6vw,58px);max-width:16ch}
-.cta-actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-start}
+.cta-actions{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
 
 /* Footer */
 .site-footer{background:var(--navy);color:#fff}
